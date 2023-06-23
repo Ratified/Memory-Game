@@ -1,0 +1,32 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    justify-content: center;
+    color: #f5f5f5;
+    background-color: #000;
+}
+
+h3{
+    margin: 2rem 0;
+}
+
+.grid{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
